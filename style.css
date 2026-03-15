@@ -1,0 +1,71 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: rgb(236, 229, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  background-color: white;
+  width: 244px;
+  height: 600px;
+  border-radius: 14px;
+  
+}
+.image{
+  padding: 5px;
+}
+.image img{
+  border-radius: 14px;
+}
+.containt p{
+  font-size: 16px ;
+}
+.containt{
+  padding: 10px;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 20px;
+
+}
+.capsules span{
+  border: 1px solid grey;
+  padding: 0px 6px;
+  border-radius: 7px;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 12px;
+}
+.capsules{
+  padding: 0px 20px;
+  font-size: 13px;
+}
+.button{
+  text-align: center;
+}
+.button button{
+  padding: 7px 14px;
+  border-radius: 14px;
+  background-color: rgb(217, 217, 249);
+  color: blue;
+  border: none;
+  margin: 7px;
+  cursor: pointer;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+}
+.button button:hover{
+  background-color: rgb(107, 107, 209);
+  color: white;
+}
